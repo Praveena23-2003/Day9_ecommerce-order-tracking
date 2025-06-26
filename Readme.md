@@ -2,19 +2,19 @@
 
 ### 📅 Task Day 9 - Java + MongoDB Project
 
-This is a simple backend simulation of an E-commerce Order Tracking System using Java, Maven, and MongoDB (via MongoDB Compass and the `mongodb-driver-sync` library).
+This is a simple backend simulation of an E-commerce Order Tracking System using **Java**, **Maven**, and **MongoDB** (via MongoDB Compass and the `mongodb-driver-sync` library).
 
 ---
 
 ## ✅ Features Implemented
 
-| Feature                              | Status  |
-|--------------------------------------|---------|
-| 🆕 Place New Orders                  | ✅ Done |
-| ✏️ Update Order Status               | ✅ Done |
-| 📜 View Order History by User        | ✅ Done |
-| 📊 Aggregate Sales by Product/Date   | ✅ Done |
-| 💾 Persistent Storage in MongoDB     | ✅ Done |
+| Feature                             | Status  |
+|------------------------------------|---------|
+| 🆕 Place New Orders                | ✅ Done |
+| ✏️ Update Order Status             | ✅ Done |
+| 📜 View Order History by User      | ✅ Done |
+| 📊 Aggregate Sales by Product/Date | ✅ Done |
+| 💾 Persistent Storage in MongoDB   | ✅ Done |
 
 ---
 
@@ -79,7 +79,7 @@ log4j-slf4j-impl – Logging
 
 commons-cli, commons-lang3 – Utility support
 
-vertx-core, vertx-web – (Optional for web support)
+vertx-core, vertx-web – (Optional: for future web API support)
 
 📸 Sample Output
 yaml
@@ -93,10 +93,10 @@ Order placed in MongoDB: ae4cd24e-a186-4492-a499-7be7f9166024
 📅 Date     : 2025-06-26
 💰 Amount   : ₹50000.0
 📌 Status   : Pending
-...
+
 📊 Total Sales for Laptop: ₹50000.0
 📅 Total Sales on 2025-06-26: ₹90000.0
 🎓 Author
 👩‍💻 Praveena R
-📘 College: Kristu Jayanti College
+📘 Kristu Jayanti College
 📚 Stack: Java + MongoDB
