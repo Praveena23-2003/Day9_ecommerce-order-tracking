@@ -2,7 +2,7 @@
 
 ### 📅 Task Day 9 - Java + MongoDB Project
 
-This is a simple backend simulation of an E-commerce Order Tracking System using **Java**, **Maven**, and **MongoDB** (via MongoDB Compass and the `mongodb-driver-sync` library).
+This is a simple backend simulation of an **E-commerce Order Tracking System** using **Java**, **Maven**, and **MongoDB** (via MongoDB Compass and the `mongodb-driver-sync` library).
 
 ---
 
@@ -33,6 +33,7 @@ Each order is saved to the `orders` collection in the `ecommerce_db` MongoDB dat
   "status": "Shipped",
   "date": "2025-06-26"
 }
+
 🗃️ MongoDB Setup
 🧩 Database: ecommerce_db
 
@@ -41,15 +42,10 @@ Each order is saved to the `orders` collection in the `ecommerce_db` MongoDB dat
 📦 MongoDB must be running locally on localhost:27017
 
 MongoDB URI used:
-
-plaintext
-Copy
-Edit
 mongodb://localhost:27017
+
 📂 Project Structure
-css
-Copy
-Edit
+
 src/
 ├── main/
 │   ├── java/
@@ -61,16 +57,19 @@ src/
 │   │       └── services/
 │   │           ├── OrderService.java
 │   │           └── MongoDBUtil.java
+
 🛠️ How to Run
 ✅ Ensure MongoDB is running locally.
 
-💡 Compile the project:
+💡 Compile the project using:
 
-bash
-Copy
-Edit
 mvn clean install
-▶️ Run Main.java or call OrderHandler.simulate() to test functionality.
+▶️ Then run the main class:
+
+Main.java
+Or call the simulation handler:
+
+OrderHandler.simulate()
 
 📦 Dependencies (from pom.xml)
 mongodb-driver-sync – MongoDB Java driver
@@ -79,12 +78,10 @@ log4j-slf4j-impl – Logging
 
 commons-cli, commons-lang3 – Utility support
 
-vertx-core, vertx-web – (Optional: for future web API support)
+vertx-core, vertx-web – (Optional for web extension)
 
 📸 Sample Output
-yaml
-Copy
-Edit
+
 Order placed in MongoDB: ae4cd24e-a186-4492-a499-7be7f9166024
 ✅ Order Placed Successfully!
 🆔 Order ID : ae4cd24e-a186-4492-a499-7be7f9166024
@@ -99,4 +96,5 @@ Order placed in MongoDB: ae4cd24e-a186-4492-a499-7be7f9166024
 🎓 Author
 👩‍💻 Praveena R
 📘 Kristu Jayanti College
-📚 Stack: Java + MongoDB
+📚 Tech Stack: Java + MongoDB
+
